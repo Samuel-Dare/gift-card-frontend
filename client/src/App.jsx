@@ -16,8 +16,7 @@ function App() {
   const { isLoggedIn } = useAuth();
 
   return (
-    {/* <BrowserRouter basename="/gift-card-frontend"> */}
-    <BrowserRouter>
+    <BrowserRouter basename="/gift-card-frontend">
       <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<Home />} />

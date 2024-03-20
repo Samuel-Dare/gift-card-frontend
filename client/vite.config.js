@@ -11,7 +11,7 @@ export default defineConfig(({ command, mode }) => {
   }
 
   return {
-    // base: '/gift-card-frontend/',
+    base: '/gift-card-frontend/',
     plugins: [react()],
     define: {
       'import.meta.env.VITE_BASE_URL': JSON.stringify(baseUrl),
