@@ -1,0 +1,16 @@
+.inputField:invalid[focus='true'] {
+  border: 1px solid #ff0000;
+}
+
+.inputField:invalid[focus='true'] ~ .errMsg {
+  display: block;
+}
+
+.errMsg {
+  /* color: #ff0000;
+  font-size: 8px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  line-height: 15px; */
+  display: none;
+}
